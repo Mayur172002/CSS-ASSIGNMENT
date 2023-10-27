@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .main {
+            background-image: url(https://images.unsplash.com/photo-1634363657990-b67b5b7f13de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80);
+            background-repeat: no-repeat;
+            height: 500px;
+            width: 40%;
+        }
+
+        .div-1 {
+
+            width: 60%;
+            background-color: rgba(10, 10, 10, 0.842);
+            color: white;
+            opacity: 0.85;
+        }
+
+        .div-2 {
+            display: flex;
+
+        }
+
+        h1 {
+
+            color: white;
+            font-family: sans-serif;
+            font-size: 25px;
+            letter-spacing: 3px;
+            margin-left: 600px !important;
+            margin-top: 60px;
+        }
+
+        .h-1 {
+            border-right: solid 4px red;
+            margin-right: 65px !important;
+        }
+
+
+        h2 {
+            margin-left: 260px;
+            margin-top: 50PX;
+            font-family: sans-serif;
+            font-size: 15px;
+            color: blueviolet;
+
+
+        }
+
+        .ONE {
+            display: flex;
+            flex-direction: column;
+            float: right;
+        }
+
+        .P-2 {
+            padding-left: 240px;
+            font-size: 13px;
+            font-family: sans-serif;
+        }
+
+        .p-1 {
+            padding-right: 83px;
+            margin-top: 15px;
+            font-family: sans-serif;
+            font-size: 13px;
+            font-family: sans-serif;
+        }
+
+        .tv {
+            color: blueviolet;
+            position: absolute;
+            z-index: 1;
+
+            left: 670px;
+            bottom: 435px;
+            box-shadow: 0px 0px 1px 2px;
+            border: solid 2px red;
+
+            transition: width 2s, height 2s, transform 1s;
+        }
+
+        .tv:hover {
+            transform: rotate(360deg);
+            color: #2fff7bbf;
+
+        }
+
+        .print {
+            color: blueviolet;
+            position: absolute;
+            z-index: 1;
+            left: 670px;
+
+            bottom: 320px;
+            box-shadow: 0px 0px 1px 2px;
+            border: solid 2px red;
+
+            transition: width 2s, height 2s, transform 1s;
+        }
+
+        .print:hover {
+            transform: rotate(360deg);
+            color: #2fff7bbf;
+
+        }
+
+
+        .photo {
+            color: blueviolet;
+            position: absolute;
+            z-index: 1;
+            left: 670px;
+            bottom: 210px;
+            box-shadow: 0px 0px 1px 2px;
+            border: solid 2px red;
+
+            transition: width 2s, height 2s, transform 1s;
+        }
+
+        .photo:hover {
+            transform: rotate(360deg);
+            color: #2fff7bbf;
+        }
+
+        .span {
+            position: absolute;
+            top: 620px !important;
+            left: 229px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-2">
+
+        <div class="div-1">
+            <h1 class="h-1">
+                OUR SERVICES
+            </h1>
+
+
+
+
+            <DIV class="ONE">
+
+                <h2>
+                    WEB DESIGNER
+                </h2>
+
+
+                <P class="p-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quis?</P>
+                <P class="P-2 ">Lorem ipsum dolor sit amet.</P>
+
+            </DIV>
+
+            <DIV class="ONE">
+                <h2 style="margin-left: 270px;">
+                    PRINT DESIGN
+                </h2>
+
+                <P class="p-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quis?</P>
+                <P class="P-2">Lorem ipsum dolor sit amet.</P>
+
+            </DIV>
+
+            <DIV class="ONE">
+                <h2>
+                    PHOTOGRAPHY
+                </h2>
+
+                <P class="p-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quis?</P>
+                <P class="P-2">Lorem ipsum dolor sit amet.</P>
+
+            </DIV>
+
+
+
+        </div>
+
+        <div class="main">
+
+        </div>
+    </div>
+    <div class="span">
+
+
+        <span style="background-color: white; border-radius: 50%; padding: 10px;" class="fa tv fa-tv"></span>
+
+
+
+
+        <span style="background-color: white; border-radius: 50%; padding: 10px;" class="fa print fa-print"></span>
+        <span style="background-color: white; border-radius: 50%; padding: 10px;" class="fa photo fa-photo"></span>
+    </div>
+</body>
+
+</html>
